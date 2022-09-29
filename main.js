@@ -40,7 +40,7 @@ camera = document.getElementById("camera");
 
 function takeSnapshot() {
     Webcam.snap(function (data_uri) {
-        document.getElementById("result").innerHTML = '<img id="selfie_img " src="' + data_uri + '">';
+        document.getElementById("result").innerHTML = '<img id="selfie_img" src="' + data_uri + '">';
     });
 }
 
